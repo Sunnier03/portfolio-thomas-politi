@@ -57,7 +57,7 @@
         <div>
           <h3 class="roboto-bold mb-4 text-sm font-semibold uppercase tracking-[0.24em]">Contatti</h3>
           <p class="roboto text-sm sm:text-base leading-relaxed text-[#212121]/80">
-            Hai in mente un progetto? Parliamo insieme!
+            Hai in mente un progetto? Parliamone insieme!
           </p>
           <a href="mailto:tom.politi03@gmail.com" class="mt-4 inline-flex text-sm font-semibold transition hover:opacity-50">
             tom.politi03@gmail.com
