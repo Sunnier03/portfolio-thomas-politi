@@ -7,9 +7,9 @@ export const progetti = [
     descrizione: 'Lacrime di miele è un libro d’artista dedicato alla memoria delle vittime della strage di Piazza della Loggia, avvenuta a Brescia il 28 maggio 1974. Il progetto nasce come atto di restituzione simbolica e poetica, con l’intento di sottrarre queste vite alla sola dimensione storica e restituire loro una presenza sensibile, intima e universale.',
     copertina: '/src/assets/img/progetti/lacrime-di-miele-cover.webp',
     immagini: [
-      '/src/assets/img/progetti/lacrime-di-miele-1.webp',
-      '/src/assets/img/progetti/lacrime-di-miele-2.webp',
-      '/src/assets/img/progetti/lacrime-di-miele-3.webp',
+      new URL('../assets/img/progetti/lacrime-di-miele-1.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/lacrime-di-miele-2.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/lacrime-di-miele-3.webp', import.meta.url).href,
     ]
   },
   
@@ -21,10 +21,10 @@ export const progetti = [
     descrizione: 'Hou Yi è un progetto realizzato per il MITA che rilegge l’antica leggenda cinese dell’arciere divino attraverso un sistema di illustrazioni e simboli essenziali. L’intervento prende forma a partire dallo studio di un antico tappeto proveniente dalla regione di Kashgar, traducendone struttura narrativa, ritmo visivo e valore simbolico in un linguaggio contemporaneo. Il progetto esplora temi di equilibrio, sacrificio e distanza, trasformando il mito in una composizione visiva stratificata tra memoria, gesto e astrazione.',
     copertina: '/src/assets/img/progetti/mita-cover.webp',
     immagini: [
-      '/src/assets/img/progetti/mita-1.webp',
-      '/src/assets/img/progetti/mita-2.webp',
-      '/src/assets/img/progetti/mita-3.webp',
-      '/src/assets/img/progetti/mita-4.webp',
+      new URL('../assets/img/progetti/mita-1.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/mita-2.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/mita-3.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/mita-4.webp', import.meta.url).href,
     ]
   },
 
@@ -46,8 +46,8 @@ export const progetti = [
     descrizione: 'Ispirate alle bacche e alla natura. Il mazzo di carte da gioco Flora è un progetto di design grafico che reinterpreta le carte tradizionali attraverso un linguaggio visivo poetico e suggestivo. Il mazzo è completo di tutte 42 le carte da gioco tradizionali.',
     copertina: '/src/assets/img/progetti/playing-cards-cover.webp',
     immagini: [
-      '/src/assets/img/progetti/playing-cards-1.webp',
-      '/src/assets/img/progetti/playing-cards-2.webp',
+      new URL('../assets/img/progetti/playing-cards-1.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/playing-cards-2.webp', import.meta.url).href,
     ]
   },
 
@@ -89,12 +89,12 @@ export const progetti = [
     descrizione: 'A Selenia, la terra delle quattro lune, si trova un bizzarro party di avventurieri: Emily, esperta di pozioni e profumi; Drevania, nobildonna tiefling degli alti strati della capitale; Kaelen, elfo della notte e eremita; Seleira, figlia orfana delle quattro lune, destinata a salvarle dalla distruzione. Insieme, si troveranno sotto la guida della dea Selene per salvare il regno dalle tenebre.',
     copertina: '/src/assets/img/progetti/selenia-cover.webp',
     immagini: [
-      '/src/assets/img/progetti/selenia-1.webp',
-      '/src/assets/img/progetti/selenia-2.webp',
-      '/src/assets/img/progetti/selenia-3.webp',
-      '/src/assets/img/progetti/selenia-4.webp',
-      '/src/assets/img/progetti/selenia-5.webp',
-      '/src/assets/img/progetti/selenia-6.webp',
+      new URL('../assets/img/progetti/selenia-1.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/selenia-2.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/selenia-3.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/selenia-4.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/selenia-5.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/selenia-6.webp', import.meta.url).href,
     ]
   },
 
@@ -106,8 +106,8 @@ export const progetti = [
     descrizione: 'Compositing realizzato in Photoshop, con l’intento di creare un’immagine suggestiva e poetica che rappresenti la bellezza e la fragilità della natura quando riconquista l’architettura umana.',
     copertina: '/src/assets/img/progetti/moth-compositing-cover.webp',
     immagini: [
-      '/src/assets/img/progetti/moth-compositing-1.webp',
-      '/src/assets/img/progetti/moth-compositing-2.webp',
+      new URL('../assets/img/progetti/moth-compositing-1.webp', import.meta.url).href,
+      new URL('../assets/img/progetti/moth-compositing-2.webp', import.meta.url).href,
     ]
   },
 
@@ -139,7 +139,7 @@ export const progetti = [
     descrizione: 'Whispering Dew è un progetto di packaging design per una bottiglia di liquore a base di sambuco. La narrazione visiva si ispira al sottobosco in un immaginario in cui le fate raccolgono le goccie di rugiada per creare un distillato magico e rigenerante, in grado di donare la vista sull’invisibile e di svelare i segreti della natura.',
     copertina: '/src/assets/img/progetti/whispering-dew-cover.webp',
     immagini: [
-      '/src/assets/img/progetti/whispering-dew-1.webp',
+      new URL('../assets/img/progetti/whispering-dew-1.webp', import.meta.url).href,
     ]
   },
 
