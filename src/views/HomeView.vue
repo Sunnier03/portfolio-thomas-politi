@@ -14,22 +14,9 @@ import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin'
 gsap.registerPlugin(ScrollTrigger)
 gsap.registerPlugin(ScrambleTextPlugin)
 
-const aboutRef = ref(null)
-const aboutTextRef = ref(null)
 const philosophyRef = ref(null)
 
 onMounted(() => {
-  gsap.from(aboutTextRef.value, {
-    x: -400,
-    opacity: 0,
-    duration: 2,
-    ease: 'power3.out',
-    scrollTrigger: {
-      trigger: aboutRef.value,
-      start: 'top 80%',
-      toggleActions: 'play none none reverse',
-    },
-  })
 
   const leftWords = gsap.utils.toArray('.philosophy-word-left')
   const rightWords = gsap.utils.toArray('.philosophy-word-right')
